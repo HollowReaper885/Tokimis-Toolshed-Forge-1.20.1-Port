@@ -1,0 +1,25 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "obsidianequipmentrework"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MMS",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "obsidianequipmentrework:obsidian_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "tokimistoolshed:obsidian_lumber_axe"
+  }
+}

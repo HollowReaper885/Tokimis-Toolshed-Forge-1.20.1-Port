@@ -1,0 +1,11 @@
+{
+  "type": "tokimistoolshed:clippers_as_shears",
+  "conditions": [
+    {
+      "condition": "minecraft:match_tool",
+      "predicate": {
+        "items": [ "tokimistoolshed:clippers" ]
+      }
+    }
+  ]
+}
