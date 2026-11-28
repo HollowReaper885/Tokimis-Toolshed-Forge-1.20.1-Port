@@ -83,21 +83,21 @@ public class ModItems {
     public static final RegistryObject<Item> COPPER_BUCKET = ITEMS.register("copper_bucket",
             () -> new CopperBucketItem(Fluids.EMPTY, ModItems::copperBucket, ModItems::copperWaterBucket,
                     ModItems::copperLavaBucket, ModItems::copperPowderSnowBucket,
-                    new Item.Properties().durability(16).stacksTo(1)));
+                    new Item.Properties().durability(16)));
     public static final RegistryObject<Item> COPPER_WATER_BUCKET = ITEMS.register("copper_water_bucket",
             () -> new CopperBucketItem(Fluids.WATER, ModItems::copperBucket, ModItems::copperWaterBucket,
                     ModItems::copperLavaBucket, ModItems::copperPowderSnowBucket,
-                    new Item.Properties().durability(16).stacksTo(1)));
+                    new Item.Properties().durability(16)));
     public static final RegistryObject<Item> COPPER_LAVA_BUCKET = ITEMS.register("copper_lava_bucket",
             () -> new CopperBucketItem(Fluids.LAVA, ModItems::copperBucket, ModItems::copperWaterBucket,
                     ModItems::copperLavaBucket, ModItems::copperPowderSnowBucket,
-                    new Item.Properties().durability(16).stacksTo(1)));
+                    new Item.Properties().durability(16)));
     public static final RegistryObject<Item> COPPER_POWDER_SNOW_BUCKET = ITEMS.register("copper_powder_snow_bucket",
             () -> new CopperPowderSnowBucketItem(ModItems::copperBucket,
-                    new Item.Properties().durability(16).stacksTo(1)));
+                    new Item.Properties().durability(16)));
     public static final RegistryObject<Item> COPPER_MILK_BUCKET = ITEMS.register("copper_milk_bucket",
             () -> new CopperMilkBucketItem(ModItems::copperBucket,
-                    new Item.Properties().durability(16).stacksTo(1)));
+                    new Item.Properties().durability(16)));
 
     public static final RegistryObject<Item> TROWEL =
             ITEMS.register("trowel", () -> new TrowelItem(new Item.Properties().stacksTo(1)));
